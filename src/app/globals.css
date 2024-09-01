@@ -40,3 +40,20 @@ body {
   --cardTopPadding: 1.5em;
   --cardMargin: 20vw;
 }
+
+/* tilt animation for the logo */
+@keyframes tilt-left {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(-30deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes tilt-right {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.tilt:hover {
+  animation: tilt-left 0.5s ease-in-out;
+}
