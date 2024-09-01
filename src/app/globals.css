@@ -31,3 +31,12 @@ body {
     text-wrap: balance;
   }
 }
+
+/* made some roots for the cards */
+:root {   
+  --cards: 4;
+  --cardHeight: 50vh;
+  --cardWidth:90vw;
+  --cardTopPadding: 1.5em;
+  --cardMargin: 20vw;
+}
