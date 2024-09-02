@@ -19,7 +19,7 @@ const Hero = () => {
     <div>
       <div className="h-[40rem] flex flex-col justify-center items-center px-4 bg-black">
         <div className="lg:text-8xl text-5xl mx-auto font-normal text-neutral-600 dark:text-neutral-400 mb-4">
-          Build
+          Build 
           <FlipWords words={words} /> <br />
           websites with PattUI
         </div>
