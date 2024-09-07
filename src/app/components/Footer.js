@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
     <footer className="text-gray-600 body-font mt-20">
   <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-    <img src="https://cdn.discordapp.com/attachments/909140968790458498/1279861184484479067/image.png?ex=66d5fb1d&is=66d4a99d&hm=6e11693d875e40702eeb0e8f49448754ecd1a97a88c556753dac9954f53b1d61&" className="h-8 tilt" alt="" />
+    <Image src="/image.png" width={"35"} height={"50"} className="h-8 tilt" alt="" />
 
       <span className="ml-3 text-xl text-white">PattUI</span>
     </a>

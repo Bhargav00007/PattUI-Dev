@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const NavBar = () => {
   return (
@@ -6,7 +7,7 @@ const NavBar = () => {
             <nav className="bg-white border-gray-200 dark:bg-black">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="https://cdn.discordapp.com/attachments/909140968790458498/1279861184484479067/image.png?ex=66d5fb1d&is=66d4a99d&hm=6e11693d875e40702eeb0e8f49448754ecd1a97a88c556753dac9954f53b1d61&" className="h-8 tilt" alt="" />
+    <Image src="/image.png" width={"35"} height={"50"} className="h-8 tilt" alt="" />
         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">PattUI</span>
     </a>
     <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
