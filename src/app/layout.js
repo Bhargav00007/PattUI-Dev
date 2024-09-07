@@ -1,3 +1,4 @@
+import Script from 'next/script';
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -12,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}
-      <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+      <Script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"/>
       </body>
     </html>
   );
