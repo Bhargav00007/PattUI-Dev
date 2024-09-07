@@ -51,7 +51,7 @@ const GettingStarted = () => {
           className="lg:h-[12rem] lg:w-[35rem] h-[12rem] w-[20rem]  absolute right-[10%]  lg:top-1/3 sm:top-1/3 top-1/3 bg-gray-800 shadow-lg rounded-lg p-6"
         >
       <h2 className="text-3xl font-semibold">Import Styles</h2>
-      <p className="text-xl mt-2">import 'pattui/styles.css';</p>
+      <p className="text-xl mt-2">import pattui/styles.css</p>
 
         </motion.div>
 
@@ -61,7 +61,7 @@ const GettingStarted = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="lg:h-[12rem] lg:w-[35rem] h-[12rem] w-[20rem]  absolute left-[10%]  lg:top-2/3 sm:top-2/3 top-2/3 bg-gray-800 shadow-lg rounded-lg p-6 ">
           <h2 className="text-3xl font-semibold">Import Modules</h2>
-          <p className="text-xl mt-2">import from 'pattui'</p>
+          <p className="text-xl mt-2">import from pattui</p>
         </motion.div>
     
       </div>
